@@ -2,7 +2,7 @@
  * https://en.wikipedia.org/wiki/Talk%3ACuriously_recurring_template_pattern
  * Example how we can use this patter for creating base builder and how to use it with inheritance.
  */
-public class BuilderWithCuriouslyRecurringGenericPattern {
+public class FluentBuilderWithCuriouslyRecurringGenericPattern {
     public static void main(String[] args) {
         SingleRequest.newBuilder()
                 .withCommonPart(new Request.RequestCommonPart())
